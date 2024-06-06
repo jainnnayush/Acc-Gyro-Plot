@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Raw Accelerometer Charts -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Raw Accelerometer X Axis"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/accelerometerChartX"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Filtered Accelerometer X Axis"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/filteredAccelerometerChartX"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Raw Accelerometer Y Axis"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/accelerometerChartY"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Filtered Accelerometer Y Axis"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/filteredAccelerometerChartY"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Raw Accelerometer Z Axis"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/accelerometerChartZ"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Filtered Accelerometer Z Axis"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/filteredAccelerometerChartZ"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp" />
+        <!-- Filtered Accelerometer Charts -->
+
+
+        <!-- Gyroscope Charts -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gyroscope X Axis"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/gyroscopeChartX"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gyroscope Y Axis"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/gyroscopeChartY"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gyroscope Z Axis"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/gyroscopeChartZ"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+</ScrollView>
